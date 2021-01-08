@@ -1,0 +1,98 @@
+/* default  */
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+section{
+    height: 610px;
+    bottom: 150px;
+}
+.main-wrapper{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+.anchor-btn{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin: 5px;
+}
+/* Menu-bar */
+.menu-bar ul li a{
+    text-decoration: none;
+    color:#3C3C3C;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.menu-bar ul li{
+    list-style-type: none;
+    float: left;
+    margin: 10px 0px 10px 10px;
+    margin-right: 15px;
+}
+.menu-bar{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+/* first banner  */
+.first-banner{
+    position: absolute;
+    left: 0px;
+    top: 90px;
+}
+
+.title-1{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 0px;
+    color: #363958;
+    text-transform: uppercase;
+}
+.title-2{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: #f76761;
+    text-transform: uppercase;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+
+.half-width p{
+    font-family: Raleway;
+    font-size: 1.6em;
+}
+/* second-banner */
+
+.second-banner{
+    position: absolute;
+    top: 710px;
+    left: 0px;
+}
+.second-banner .half-width .title-1{
+    font-family: raleway;
+    margin-left: 20p
+}
+.second-banner .half-width p{
+    margin-left: 20px;
+    text-align: justify;
+    color: gray;
+    font-family: 'Raleway';
+}
