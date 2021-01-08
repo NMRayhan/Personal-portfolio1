@@ -192,3 +192,49 @@ section{
     top: 30px;
     left: 50px;
 }
+/* contact section */
+.contact-bg{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+.contact-bg .contact{
+    width: 100%;
+    margin: 0 auto;
+    height: 200px;
+    left: 0px;
+    right: 0px;
+    top: 2100px;
+    position: absolute;
+    position: relative;
+}
+.contact h3{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 24px;
+    color: #696871;
+    text-align: center;
+    margin-top: 80px;
+}
+.contact h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 42px;
+    color: #363958;
+    text-align: center;
+}
+.contact .social-icon{
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 41%;
+    width: 30%;
+    float: left;
+}
+.contact .social-icon img{
+    width: 20%;
+}
