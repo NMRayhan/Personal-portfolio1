@@ -155,3 +155,40 @@ section{
     color: #6C6C6C;
     text-align: center;
 }
+
+/* working-inquary-area */
+.working-inquary-bg{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+.working-inquary-area{
+    position: absolute;
+    background-image: url(../Images/Group_33094_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70%;
+    margin: 0 auto;
+    height: 200px;
+    left: 0px;
+    right: 0px;
+    top: 2100px;
+    position: relative;
+}
+.working-inquary-area .anchor-btn{
+    position: absolute;
+    right: 50px;
+    top: 80px;
+}
+.working-inquary-area h1{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
