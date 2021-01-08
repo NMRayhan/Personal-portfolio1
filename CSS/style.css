@@ -88,11 +88,14 @@ section{
 }
 .second-banner .half-width .title-1{
     font-family: raleway;
-    margin-left: 20p
+    margin-left: 20px;
 }
 .second-banner .half-width p{
     margin-left: 20px;
     text-align: justify;
     color: gray;
     font-family: 'Raleway';
+}
+.second-banner .half-width .anchor-btn{
+    margin-left: 20px;
 }
