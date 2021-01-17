@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <button class="btn btn-primary mt-3 btn-outline-none" onclick="luckCheck()">Submit Your Luck</button>
+        <p id="demo" class="text-capitalize fs-2"></p>
+        <p id="demo1" class="text-capitalize fs-2"></p>
+        <p id="demo2" class="text-uppercase fs-2 fw-bold"></p>
+    </div>
+
+    <script>
+        function luckCheck() {
+            var machineTake = Math.floor(Math.random() * 10);
+            var userTake = prompt("Please Choice A Number Between 1 to 10");
+            if (machineTake == userTake) {
+                document.getElementById("demo").innerHTML = "You Take = " + userTake;
+                document.getElementById("demo1").innerHTML = "Machine Take = " + machineTake;
+                document.getElementById("demo2").innerHTML = "\"Good Luck\"";
+            }
+            else if(userTake == null || userTake <= 0){
+                document.getElementById("demo").innerHTML = "Please Choice A Number Between 1 to 10 Range and Try again"
+            }
+            else {
+                document.getElementById("demo").innerHTML = "You Take = " + userTake;
+                document.getElementById("demo1").innerHTML = "Machine Take = " + machineTake;
+                document.getElementById("demo2").innerHTML = "\"Bad Luck\"";
+            }
+        }
+
+    </script>
+</body>
+
+</html>
